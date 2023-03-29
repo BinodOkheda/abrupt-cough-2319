@@ -31,3 +31,38 @@
     justify-content: space-around;
     align-items: center;
 }
+
+.lownav{
+  
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 5px;
+}
+a{
+    color: black;
+    text-decoration: none;
+}
+a:hover{
+    font-size: 20px;
+}
+
+.underline{
+
+    font-size: 0;
+    
+}
+
+footer>img{
+    width:100%
+}
+
+.hometop{
+    margin: 30px;
+    display: flex;
+}
+
+.hometop>img{
+    width: 80%;
+    margin: auto;
+}
