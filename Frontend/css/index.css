@@ -9,6 +9,8 @@
     justify-content: space-between;
     background-color: aliceblue;
     box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    position: sticky;
+    top: 0;
 }
 
 
@@ -65,4 +67,26 @@ footer>img{
 .hometop>img{
     width: 80%;
     margin: auto;
+}
+
+.homemid{
+    display: flex;
+    justify-content: space-around;
+    margin: 25px;
+    padding: 10px;
+}
+
+.homemid>div{
+    width: 25%;
+}
+
+.homemid>div>img{
+    width: 100%;
+}
+
+.bestseller{
+    
+    text-align: center;
+    font-size: larger;
+    margin: 50px;
 }
