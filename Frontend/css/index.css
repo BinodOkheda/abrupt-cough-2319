@@ -46,7 +46,9 @@ a{
     text-decoration: none;
 }
 a:hover{
-    font-size: 20px;
+
+    font-size: 25px;
+    
 }
 
 .underline{
@@ -60,8 +62,10 @@ footer>img{
 }
 
 .hometop{
+
     margin: 30px;
     display: flex;
+
 }
 
 .hometop>img{
@@ -70,10 +74,12 @@ footer>img{
 }
 
 .homemid{
+
     display: flex;
     justify-content: space-around;
     margin: 25px;
     padding: 10px;
+    
 }
 
 .homemid>div{
@@ -89,4 +95,38 @@ footer>img{
     text-align: center;
     font-size: larger;
     margin: 50px;
+}
+
+.bestsell{
+   
+    display: flex;
+    justify-content: space-around;
+    margin: 25px;
+    padding: 10px;
+
+}
+
+.bestsell>div{
+
+    width: 15%;
+   
+}
+
+.bestsell>div>img{
+
+    width: 100%;
+}
+
+.buyerBtn{
+    
+    width: 75%;
+    margin: auto;
+    margin-bottom: 50px;
+}
+
+.buyerBtn>img{
+    
+    width: 100%;
+
+
 }
